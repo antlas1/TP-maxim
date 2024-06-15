@@ -2,10 +2,12 @@
 //
 
 #include <iostream>
+#include <Windows.h>
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    SetConsoleOutputCP(CP_UTF8);
+    std::cout << "Здравствуй мир!\n";
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
